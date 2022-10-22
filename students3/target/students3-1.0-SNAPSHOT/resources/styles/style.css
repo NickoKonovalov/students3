@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(211, 210, 210);
+}
+.flex-head{
+    display: flex;
+    align-items: flex-start;
+}
+.header{
+    border: 2px solid black;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+    margin: 30px 10px;
+    min-width: 70%;
+    margin-left: auto;
+
+}
+.right-log{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flex-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+.flex-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+
+}
+.buutton{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    background-color: gray;
+}
+.students-list{
+    width: 70%;
+    margin: 0 auto;
+}
+thead{
+    background-color: rgb(164, 164, 164);
+}
+.table-student{
+    border: 1px solid gray;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.table-student th, .table-student td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.table-student tr{
+    height: 100px;
+}
+.flex-link.create{
+    justify-content: left;
+}
+.flex-link.create a{
+    margin: 15px 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+
+}
+
